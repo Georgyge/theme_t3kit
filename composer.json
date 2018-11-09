@@ -33,7 +33,7 @@
     "php": "^7.2",
     "typo3/minimal": "^9.5",
     "gridelementsteam/gridelements": "dev-master",
-    "georgringer/news": "~7.0.8"
+    "georgringer/news": "dev-master"
   },
   "suggest": {
     "apache-solr-for-typo3/solr": "dev-master"
