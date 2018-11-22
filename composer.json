@@ -18,9 +18,9 @@
     "docs": "https://github.com/t3kit/t3kit/blob/master/README.md"
   },
   "autoload": {
-      "psr-4": {
-          "T3kit\\themeT3kit\\": "Classes/"
-      }
+    "psr-4": {
+      "T3kit\\themeT3kit\\": "Classes/"
+    }
   },
   "repositories": [
     {
@@ -30,19 +30,12 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": "^7.0",
-    "typo3/cms": "^9.5",
-    "typo3-ter/realurl": "~2.3.2",
-    "typo3-themes/themes": "~8.7.0",
-    "typo3-ter/gridelements": "dev-master",
-    "typo3-ter/solr": "~7.5.0",
-    "typo3-ter/dyncss-less": "0.7.9",
-    "typo3-ter/go-maps-ext": "~2.3.1",
-    "typo3-ter/cs-seo": "~2.3.3",
-    "georgringer/news": "dev-master",
-    "typo3-ter/pxa-newsletter-subscription": "~5.0.2",
-    "typo3-ter/pxa-form-enhancement": "~3.1.1",
-    "typo3-ter/pxa-cookie-bar": "~2.0.1",
-    "typo3-ter/realurl-404-multilingual": "~1.0.9"
-    }
+    "php": "^7.2",
+    "typo3/minimal": "^9.5",
+    "gridelementsteam/gridelements": "dev-master",
+    "georgringer/news": "dev-master"
+  },
+  "suggest": {
+    "apache-solr-for-typo3/solr": "dev-master"
+  }
 }
